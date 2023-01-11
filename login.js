@@ -6,7 +6,7 @@ function getLogin() {
         
         alert('Hi!');
 
-        //location.href = 'main.html';
+        location.href = 'main.html';
     }
 }
 
