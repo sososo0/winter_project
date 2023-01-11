@@ -15,5 +15,5 @@ function searchPW() {
 }
 
 function getJoin() {
-    location.href = 'main.html';
+    location.href = 'signUp.html';
 }
