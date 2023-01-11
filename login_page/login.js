@@ -6,14 +6,14 @@ function getLogin() {
         
         alert('Hi!');
 
-        location.href = 'main.html';
+        location.href = '../main_page/main.html';
     }
 }
 
 function searchPW() {
-    location.href = 'main.html';
+    location.href = '../main_page/main.html';
 }
 
 function getJoin() {
-    location.href = 'signUp.html';
+    location.href = '../signUp_page/signUp.html';
 }
