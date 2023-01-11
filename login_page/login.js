@@ -11,7 +11,7 @@ function getLogin() {
 }
 
 function searchPW() {
-    location.href = '../main_page/main.html';
+    location.href = '../find_page/find.html';
 }
 
 function getJoin() {
