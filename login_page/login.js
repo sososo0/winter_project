@@ -8,6 +8,12 @@ function getLogin() {
 
         location.href = '../main_page/main.html';
     }
+    else if(login_ID.value == ''){
+        alert('아이디를 입력해주세요.');
+    }
+    else if(login_PW.value == ''){
+        alert('비밀번호를 입력해주세요.');
+    }
 }
 
 function searchPW() {

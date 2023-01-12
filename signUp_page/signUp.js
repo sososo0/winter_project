@@ -41,7 +41,7 @@ function signIn() {
         setTimeout(function() {
             alert("가입이 완료되었습니다.")
         },0);
-        location.href="login.html";
+        location.href="../login_page/login.html";
     }
     
 
@@ -55,7 +55,7 @@ function signCancel() {
     var result = confirm("정말 회원가입을 취소하시겠습니까? T.T");
 
     if( result ){
-        location.href="login.html";   //로그인 페이지로 돌아가기
+        location.href="../login_page/login.html";   //로그인 페이지로 돌아가기
     }else{
         location.href="signUp.html";  //회원가입 페이지로 돌아가기
 
