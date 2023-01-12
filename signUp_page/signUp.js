@@ -57,7 +57,7 @@ function signCancel() {
     if( result ){
         location.href="../login_page/login.html";   //로그인 페이지로 돌아가기
     }else{
-        location.href="signUp.html";  //회원가입 페이지로 돌아가기
+        location.href="./signUp.html";  //회원가입 페이지로 돌아가기
 
     }
     
