@@ -16,9 +16,9 @@ function getLogin() {
     }
 }
 
-function searchPW() {
+/*function searchPW() {
     location.href = '../find_page/find.html';
-}
+}*/
 
 function getJoin() {
     location.href = '../signUp_page/signUp.html';
