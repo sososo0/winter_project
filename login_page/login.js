@@ -1,6 +1,11 @@
 const login_ID = document.getElementById('ID');
 const login_PW = document.getElementById('PW');
 
+/* 임시계정
+    id = abc
+    pw = 123
+*/
+
 function getLogin() {
     if( (login_ID.value == 'abc') && (login_PW.value == 123) ) {
         
